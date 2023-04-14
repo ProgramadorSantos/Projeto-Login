@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+/* Paleta de cores
+
+    azul:#0092FA
+    lilás:#F1B2FB
+
+
+*/
+
+body {
+    background-image: linear-gradient(to left, #0092FA, #F1B2FB);
+    
+}
