@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,23 +21,26 @@
             <h1>Login</h1>
             <p>Seja Bem Vindo novamente. Faça o login para acessar sua conta e poder fazer as configurações no ambiente</p>
             <form action="login.php" method="post">
-                <div class="meulogin">
-                    <label for="email"><span class="material-symbols-outlined">
-                        person
+            <div class="caixa">
+            <label for="usuario" id="label">
+                <span class="material-symbols-outlined">person
+                </span>
+                <input type="email" placeholder="seu e-mail" id="ilogin">
+            </label>
+            </div>
+            <div class="caixa">
+                <label for="senha" id="label">
+                    <span class="material-symbols-outlined">
+                        vpn_key
                         </span>
-                        <input type="text" required placeholder="seu e-email">
-                    </label>
-                    
-                </div>
-                <div class="minhasenha">
-                    <label for="minhasenha">
-                        <span           class="material-symbols-outlined">vpn_key
-                            </span>
-                        <input type="text" required placeholder="sua senha">
-                        </label>
-                </div>
-
+                        <input type="password" placeholder="sua senha" >
+                </label>
+            </div>
+            <input type="submit" value="Enviar" class="enviar">
             </form>
+            <div>
+                inpu
+            </div>
 
         </div>
     </main>
