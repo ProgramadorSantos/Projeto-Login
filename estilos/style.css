@@ -13,3 +13,73 @@ body {
     background-image: linear-gradient(to left, #0092FA, #F1B2FB);
     
 }
+main {
+    position: relative;
+    left: 8%;
+    border-radius: 20px;
+    height: 100vh;
+    width: 70vw;
+    margin: 20px;
+    background-color: white;
+    
+    
+    
+}
+.formulario {
+    padding: 20px;
+}
+.formulario > h1 {
+    margin-top: -20px;
+    text-align: center;
+}
+.formulario > p {
+    margin-top: -15px;
+    text-align: left;
+}
+.meulogin {
+    padding: 3px;
+    margin-bottom: 5px;
+    background-color: #F1B2FB;
+    border-radius: 10px;
+}
+.minhasenha {
+    padding: 3px;
+    background-color: #F1B2FB;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    
+}
+.imagem {
+    background-size: contain;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
