@@ -8,6 +8,10 @@
 
 
 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     background-image: linear-gradient(to left, #0092FA, #F1B2FB);
@@ -20,7 +24,7 @@ main {
     height: 100vh;
     width: 70vw;
     margin: 20px;
-    background-color: white;
+    background-color: rgba(128, 128, 128, 0.473);
     
     
     
@@ -56,6 +60,10 @@ form {
     margin: 9px;
     border-radius: 10px;
 }
+.enviar:hover{
+    background-color: #F1B2FB;
+    transition: .5s;
+}
 input{
     margin-left: 8px;
     width: 97%;
@@ -67,6 +75,16 @@ label#label{
     color: white; 
     border: 1px solid black; 
     border-radius: 7px; 
+}
+.esquecisenha{
+    background-color:rgb(210, 28, 255) ;
+    padding: 6px;
+    border-radius: 7px;
+    width: 100%;
+}
+.esquecisenha:hover{
+    background-color: #F1B2FB;
+    transition: .5s;
 }
 
 
