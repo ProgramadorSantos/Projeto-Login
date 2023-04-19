@@ -1,129 +1,53 @@
 @charset "UTF-8";
 
+/*paleta de cores 
 
-/* Paleta de cores
-
-    azul:#0092FA
-    lilás:#F1B2FB
-
-
+#00A3EA
+#0073FF
+#FFA3EA
 */
+
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-body {
-    background-image: linear-gradient(to left, #0092FA, #F1B2FB);
-   
-
-    
-}
-main {
-    
-    border-radius: 20px;
+html,body{
+    background: linear-gradient(to right,#0073FF,#FFA3EA );
     height: 100vh;
-    width: 70vw;
-    background-color: rgba(128, 128, 128, 0.473);
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
     overflow: hidden;
-    position: relative;
-    left: 15%;
-    
-    
-    
-}
-form {
-    width: 95%;
-    text-align: left;
 
-}
-.formulario {
-    margin: 20px;
-    text-align: center;
-}
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.582);
 
-
-.caixa {
-    display: inline-block;
-    background-color: rgb(210, 28, 255);
-    padding: 3px;
-    margin: 6px;
-    border-radius: 10px;
-    width: 100%;
-    
-    
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+section#login > div#imagem {
+    display: block;
+    background: url(../imagens/logomarcanovo.png);
+    background-position: center center;
+    height: 200px;
     
 }
-.enviar{
-    background-color: rgb(210, 28, 255);
-    width: 100%;
-    padding: 6px;
-    position: center;
-    margin: 9px;
-    border-radius: 10px;
+section#login > div#formulario {
+    display: block;
+    padding: 15px;
 }
-.enviar:hover{
-    background-color: #F1B2FB;
-    transition: .5s;
-}
-input{
-    margin-left: 8px;
-    width: 97%;
-}
-label#label{
-    display: flex;
-    margin: 7px;
-    background-color: rgba(0, 0, 0, 0.575);
-    color: white; 
-    border: 1px solid black; 
-    border-radius: 7px; 
-}
-.esquecisenha{
-    background-color:rgb(210, 28, 255) ;
-    padding: 6px;
-    border-radius: 7px;
-    width: 100%;
-}
-.esquecisenha:hover{
-    background-color: #F1B2FB;
-    transition: .5s;
-}
-.botoes{
-    position: relative;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-img {
-    border-radius: 20px 20px 0px 0px;
-    width: 100%;
-    
-}
-.imagem {
-    background-size: contain;
-}
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
-
