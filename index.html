@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
     <!--CSS dos Icones-->
      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -13,11 +14,12 @@
 </head>
 <body>
     <main id="login">
-        <div class="imagem">
-            <img src="imagens/pexels-markus-spiske-3039036.jpg" alt="">
-
+        <div class="bloco">
+            <div class="imagem">
+                <img src="imagens/pexels-markus-spiske-3039036.jpg" alt="">
+            </div>
+            <div class="formulario" >
         </div>
-        <div class="formulario" >
             <h1>Login</h1>
             <p>Seja Bem Vindo novamente. Faça o login para acessar sua conta e poder fazer as configurações no ambiente</p>
             <form action="login.php" method="post">
@@ -36,8 +38,10 @@
                         <input type="password" placeholder="sua senha" minlength="6"  maxlength="15">
                 </label>
             </div>
-            <input type="submit" value="Enviar" class="enviar">
-            <input type="button" value="esqueci a senha" class="esquecisenha">
+            <div class="botoes">
+                <input type="submit" value="Enviar" class="enviar">
+                <input type="button" value="esqueci a senha" class="esquecisenha">
+            </div>
             </form>
             
 

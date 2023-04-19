@@ -15,16 +15,19 @@
 
 body {
     background-image: linear-gradient(to left, #0092FA, #F1B2FB);
+   
+
     
 }
 main {
-    position: relative;
-    left: 8%;
+    
     border-radius: 20px;
     height: 100vh;
     width: 70vw;
-    margin: 20px;
     background-color: rgba(128, 128, 128, 0.473);
+    overflow: hidden;
+    position: relative;
+    left: 15%;
     
     
     
@@ -35,7 +38,6 @@ form {
 
 }
 .formulario {
-    
     margin: 20px;
     text-align: center;
 }
@@ -85,6 +87,9 @@ label#label{
 .esquecisenha:hover{
     background-color: #F1B2FB;
     transition: .5s;
+}
+.botoes{
+    position: relative;
 }
 
 

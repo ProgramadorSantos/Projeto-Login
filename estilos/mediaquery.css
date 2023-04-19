@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html,body {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (min-width:668px) and (max-width:992px) {
+    main {
+        width: 70%;
+        height: 50%;
+        display: flex;
+        background-color: blueviolet;
+        
+        
+    }
+}
+
+    .formulario {
+        float: left;
+        display: inline-block;
+    } 
+        
+    
+   
+    
